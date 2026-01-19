@@ -80,6 +80,37 @@ npm run dev
 ```
 Abre tu navegador en la URL que muestra Vite (usualmente `http://localhost:5173`).
 
+## 🧪 Pruebas/Tests
+
+Este proyecto incluye pruebas unitarias tanto para el frontend como para el backend.
+
+### Backend Tests
+El backend utiliza **Jest** para testing unitario, cubriendo:
+- **Servicio Groq**: Pruebas de procesamiento de chat, manejo de respuestas JSON, extracción de markdown, tool calls y manejo de errores.
+- **Health Endpoint**: Validación del endpoint de salud del API.
+- **Inventario**: Tests de búsqueda (exacta y fuzzy), filtros (categoría, material), y formato de respuestas.
+
+**Comandos:**
+```bash
+cd backend
+npm test                  # Ejecutar todos los tests
+npm run test:watch        # Ejecutar en modo watch
+npm run test:coverage     # Ver cobertura de código
+```
+
+### Frontend Tests
+El frontend utiliza **Vitest** y **React Testing Library**:
+- Pruebas de componentes React
+- Tests de interacción de usuario
+- Validación de renders
+
+**Comandos:**
+```bash
+cd frontend
+npm test                  # Ejecutar todos los tests
+npm run test:coverage     # Ver cobertura de código
+```
+
 ## 📸 Prototipo / Capturas
 
 ### Pantalla Principal

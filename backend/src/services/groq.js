@@ -150,10 +150,32 @@ async function processChat(messages) {
         return parsedResponse;
 
     } catch (error) {
-        console.error('❌ Groq API Error:', error.message);
+        console.error('❌ Groq API Error:', error.status, error.message);
 
         if (error.status === 401) {
             throw new Error('API Key inválida. Verifica GROQ_API_KEY en .env');
+        }
+
+        if (error.status === 429) {
+            // Rate limit exceeded - tokens exhausted
+            let waitTime = '';
+            try {
+                // Try to extract wait time from error message
+                const errorBody = JSON.parse(error.message);
+                if (errorBody?.error?.message) {
+                    const match = errorBody.error.message.match(/Please try again in ([^.]+)/);
+                    if (match) {
+                        waitTime = ` Tiempo de espera estimado: ${match[1]}.`;
+                    }
+                }
+            } catch (e) {
+                // If parsing fails, try regex on the raw message
+                const match = error.message?.match(/Please try again in ([^.]+)/);
+                if (match) {
+                    waitTime = ` Tiempo de espera estimado: ${match[1]}.`;
+                }
+            }
+            throw new Error(`⚠️ Se agotaron los tokens del modelo de IA. Has alcanzado el límite diario de tokens de la API de Groq.${waitTime} Por favor espera o considera actualizar tu plan en https://console.groq.com/settings/billing`);
         }
 
         throw new Error('Error comunicándose con Groq API');

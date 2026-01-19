@@ -20,8 +20,8 @@ const MessageBubble = ({ message, onOptionSelect }) => {
             className={`flex gap-4 ${isUser ? 'flex-row-reverse' : ''}`}
         >
             <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-lg ${isUser
-                    ? 'bg-gradient-to-br from-gray-100 to-gray-300'
-                    : 'bg-gradient-to-br from-primary to-secondary'
+                ? 'bg-gradient-to-br from-gray-100 to-gray-300'
+                : 'bg-gradient-to-br from-primary to-secondary'
                 }`}>
                 {isUser ? (
                     <User size={16} className="text-gray-800" />
@@ -42,6 +42,30 @@ const MessageBubble = ({ message, onOptionSelect }) => {
                         <TarjetaCotizacion data={content} />
                     ) : content.tipo === 'clarificacion' ? (
                         <TarjetaClarificacion data={content} onSelect={onOptionSelect} />
+                    ) : content.tipo === 'error_tokens' ? (
+                        <div className="glass-panel px-5 py-4 bg-yellow-500/10 border-yellow-500/30 rounded-xl max-w-md">
+                            <div className="flex items-start gap-3">
+                                <div className="w-10 h-10 rounded-full bg-yellow-500/20 flex items-center justify-center shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                                    </svg>
+                                </div>
+                                <div className="flex-1">
+                                    <h4 className="text-yellow-300 font-semibold text-sm mb-1">⚠️ Límite de Tokens Alcanzado</h4>
+                                    <p className="text-yellow-200/80 text-xs leading-relaxed mb-3">
+                                        {content.mensaje}
+                                    </p>
+                                    <a
+                                        href="https://console.groq.com/settings/billing"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-1 text-xs text-yellow-400 hover:text-yellow-300 underline underline-offset-2"
+                                    >
+                                        Actualizar plan en Groq →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     ) : (
                         <div className="glass-panel px-4 py-3 bg-red-500/10 border-red-500/20 text-red-200">
                             {content.mensaje || JSON.stringify(content)}
@@ -49,8 +73,8 @@ const MessageBubble = ({ message, onOptionSelect }) => {
                     )
                 ) : (
                     <div className={`rounded-2xl px-5 py-3 shadow-md text-sm leading-relaxed ${isUser
-                            ? 'bg-white text-gray-900 rounded-tr-none'
-                            : 'bg-surface border border-white/10 text-gray-100 rounded-tl-none'
+                        ? 'bg-white text-gray-900 rounded-tr-none'
+                        : 'bg-surface border border-white/10 text-gray-100 rounded-tl-none'
                         }`}>
                         {content}
                     </div>

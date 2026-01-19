@@ -36,9 +36,23 @@ function App() {
         body: JSON.stringify({ messages: apiMessages }),
       });
 
-      if (!response.ok) throw new Error('Error en la red');
-
       const data = await response.json();
+
+      if (!response.ok) {
+        // Check if this is a token limit error
+        if (data.mensaje && data.mensaje.includes('Se agotaron los tokens')) {
+          setMessages(prev => [...prev, {
+            role: 'assistant',
+            content: { tipo: 'error_tokens', mensaje: data.mensaje }
+          }]);
+        } else {
+          setMessages(prev => [...prev, {
+            role: 'assistant',
+            content: { tipo: 'error', mensaje: data.mensaje || 'Error del servidor' }
+          }]);
+        }
+        return;
+      }
 
       // Add assistant response
       setMessages(prev => [...prev, { role: 'assistant', content: data }]);
@@ -47,7 +61,7 @@ function App() {
       console.error(error);
       setMessages(prev => [...prev, {
         role: 'assistant',
-        content: { tipo: 'error', mensaje: 'Error conectando con el servidor.' }
+        content: { tipo: 'error', mensaje: 'Error conectando con el servidor. Verifica tu conexión.' }
       }]);
     } finally {
       setIsLoading(false);

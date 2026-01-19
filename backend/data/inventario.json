@@ -1,0 +1,484 @@
+[
+    {
+        "sku": "COD-PVC-012",
+        "nombre": "Codo PVC 1/2\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "1/2 pulgada",
+        "precio": 15.00,
+        "stock": 250,
+        "unidad": "pieza",
+        "aliases": [
+            "codo pvc",
+            "codo de media",
+            "codo media pulgada",
+            "conexión codo"
+        ]
+    },
+    {
+        "sku": "COD-COB-012",
+        "nombre": "Codo Cobre 1/2\"",
+        "categoria": "Conexiones",
+        "material": "Cobre",
+        "medida": "1/2 pulgada",
+        "precio": 45.00,
+        "stock": 120,
+        "unidad": "pieza",
+        "aliases": [
+            "codo cobre",
+            "codo de media cobre",
+            "codo copper"
+        ]
+    },
+    {
+        "sku": "COD-GAL-012",
+        "nombre": "Codo Galvanizado 1/2\"",
+        "categoria": "Conexiones",
+        "material": "Galvanizado",
+        "medida": "1/2 pulgada",
+        "precio": 35.00,
+        "stock": 80,
+        "unidad": "pieza",
+        "aliases": [
+            "codo galvanizado",
+            "codo galva",
+            "codo de media galva"
+        ]
+    },
+    {
+        "sku": "TUB-PVC-300",
+        "nombre": "Tubo PVC Hidráulico 1/2\" x 3m",
+        "categoria": "Tubería",
+        "material": "PVC",
+        "medida": "1/2 pulgada",
+        "precio": 120.00,
+        "stock": 150,
+        "unidad": "pieza",
+        "aliases": [
+            "tubo pvc",
+            "cañería",
+            "tubo hidráulico",
+            "caño pvc",
+            "tramo de cañería"
+        ]
+    },
+    {
+        "sku": "TUB-PVC-600",
+        "nombre": "Tubo PVC Hidráulico 3/4\" x 3m",
+        "categoria": "Tubería",
+        "material": "PVC",
+        "medida": "3/4 pulgada",
+        "precio": 180.00,
+        "stock": 100,
+        "unidad": "pieza",
+        "aliases": [
+            "tubo pvc 3/4",
+            "cañería 3/4",
+            "tubo tres cuartos"
+        ]
+    },
+    {
+        "sku": "SEL-TEF-003",
+        "nombre": "Cinta Teflón 1/2\" x 10m",
+        "categoria": "Selladores",
+        "material": null,
+        "medida": "1/2 pulgada",
+        "precio": 45.00,
+        "stock": 150,
+        "unidad": "pieza",
+        "aliases": [
+            "cinta blanca",
+            "teflón",
+            "cinta para fugas",
+            "cinta de plomero",
+            "cinta esa blanca"
+        ]
+    },
+    {
+        "sku": "VAL-ESF-012",
+        "nombre": "Válvula de Esfera 1/2\"",
+        "categoria": "Válvulas",
+        "material": "Bronce",
+        "medida": "1/2 pulgada",
+        "precio": 85.00,
+        "stock": 60,
+        "unidad": "pieza",
+        "aliases": [
+            "llave de paso",
+            "válvula",
+            "llave de bola",
+            "válvula de esfera"
+        ]
+    },
+    {
+        "sku": "COP-PVC-012",
+        "nombre": "Cople PVC 1/2\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "1/2 pulgada",
+        "precio": 12.00,
+        "stock": 300,
+        "unidad": "pieza",
+        "aliases": [
+            "cople",
+            "copla",
+            "unión",
+            "unión pvc"
+        ]
+    },
+    {
+        "sku": "TEE-PVC-012",
+        "nombre": "Conexión T PVC 1/2\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "1/2 pulgada",
+        "precio": 18.00,
+        "stock": 200,
+        "unidad": "pieza",
+        "aliases": [
+            "tee",
+            "conexión t",
+            "te pvc",
+            "t de media"
+        ]
+    },
+    {
+        "sku": "RED-PVC-034-012",
+        "nombre": "Reducción Bushing PVC 3/4\" a 1/2\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "3/4 a 1/2 pulgada",
+        "precio": 20.00,
+        "stock": 150,
+        "unidad": "pieza",
+        "aliases": [
+            "reducción",
+            "bushing",
+            "reducción bushing",
+            "buje reducción"
+        ]
+    },
+    {
+        "sku": "CEM-PVC-250",
+        "nombre": "Cemento PVC 250ml",
+        "categoria": "Selladores",
+        "material": null,
+        "medida": "250ml",
+        "precio": 65.00,
+        "stock": 80,
+        "unidad": "pieza",
+        "aliases": [
+            "pegamento azul",
+            "cemento pvc",
+            "pegamento para pvc",
+            "cemento"
+        ]
+    },
+    {
+        "sku": "NIP-GAL-012-100",
+        "nombre": "Niple Galvanizado 1/2\" x 10cm",
+        "categoria": "Conexiones",
+        "material": "Galvanizado",
+        "medida": "1/2 pulgada",
+        "precio": 25.00,
+        "stock": 180,
+        "unidad": "pieza",
+        "aliases": [
+            "niple",
+            "niple galva",
+            "conector niple",
+            "niple de media"
+        ]
+    },
+    {
+        "sku": "COD-PVC-034",
+        "nombre": "Codo PVC 3/4\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "3/4 pulgada",
+        "precio": 22.00,
+        "stock": 180,
+        "unidad": "pieza",
+        "aliases": [
+            "codo pvc 3/4",
+            "codo tres cuartos",
+            "codo 3/4"
+        ]
+    },
+    {
+        "sku": "COD-PVC-100",
+        "nombre": "Codo PVC 1\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "1 pulgada",
+        "precio": 28.00,
+        "stock": 150,
+        "unidad": "pieza",
+        "aliases": [
+            "codo pvc 1",
+            "codo de una pulgada",
+            "codo una"
+        ]
+    },
+    {
+        "sku": "TUB-PVC-100-3M",
+        "nombre": "Tubo PVC Hidráulico 1\" x 3m",
+        "categoria": "Tubería",
+        "material": "PVC",
+        "medida": "1 pulgada",
+        "precio": 225.00,
+        "stock": 90,
+        "unidad": "pieza",
+        "aliases": [
+            "tubo pvc 1 pulgada",
+            "cañería de 1",
+            "tubo una pulgada"
+        ]
+    },
+    {
+        "sku": "VAL-ESF-034",
+        "nombre": "Válvula de Esfera 3/4\"",
+        "categoria": "Válvulas",
+        "material": "Bronce",
+        "medida": "3/4 pulgada",
+        "precio": 110.00,
+        "stock": 45,
+        "unidad": "pieza",
+        "aliases": [
+            "llave de paso 3/4",
+            "válvula 3/4",
+            "llave tres cuartos"
+        ]
+    },
+    {
+        "sku": "VAL-COM-012",
+        "nombre": "Válvula de Compuerta 1/2\"",
+        "categoria": "Válvulas",
+        "material": "Bronce",
+        "medida": "1/2 pulgada",
+        "precio": 95.00,
+        "stock": 35,
+        "unidad": "pieza",
+        "aliases": [
+            "válvula compuerta",
+            "llave de compuerta",
+            "válvula de paso"
+        ]
+    },
+    {
+        "sku": "ABR-MET-012",
+        "nombre": "Abrazadera Metálica 1/2\"",
+        "categoria": "Fijación",
+        "material": "Acero",
+        "medida": "1/2 pulgada",
+        "precio": 8.00,
+        "stock": 400,
+        "unidad": "pieza",
+        "aliases": [
+            "abrazadera",
+            "grapa metálica",
+            "sujetador",
+            "abrazadera de tubo"
+        ]
+    },
+    {
+        "sku": "ABR-MET-034",
+        "nombre": "Abrazadera Metálica 3/4\"",
+        "categoria": "Fijación",
+        "material": "Acero",
+        "medida": "3/4 pulgada",
+        "precio": 10.00,
+        "stock": 300,
+        "unidad": "pieza",
+        "aliases": [
+            "abrazadera 3/4",
+            "grapa 3/4",
+            "sujetador tres cuartos"
+        ]
+    },
+    {
+        "sku": "SEL-SIL-300",
+        "nombre": "Silicón Sellador Transparente 300ml",
+        "categoria": "Selladores",
+        "material": null,
+        "medida": "300ml",
+        "precio": 55.00,
+        "stock": 100,
+        "unidad": "pieza",
+        "aliases": [
+            "silicón",
+            "sellador transparente",
+            "silicon",
+            "silicona"
+        ]
+    },
+    {
+        "sku": "COP-PVC-034",
+        "nombre": "Cople PVC 3/4\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "3/4 pulgada",
+        "precio": 16.00,
+        "stock": 250,
+        "unidad": "pieza",
+        "aliases": [
+            "cople 3/4",
+            "copla 3/4",
+            "unión 3/4"
+        ]
+    },
+    {
+        "sku": "TEE-PVC-034",
+        "nombre": "Conexión T PVC 3/4\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "3/4 pulgada",
+        "precio": 24.00,
+        "stock": 180,
+        "unidad": "pieza",
+        "aliases": [
+            "tee 3/4",
+            "conexión t 3/4",
+            "te tres cuartos"
+        ]
+    },
+    {
+        "sku": "ADAP-PVC-034-RH",
+        "nombre": "Adaptador PVC Rosca Hembra 3/4\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "3/4 pulgada",
+        "precio": 18.00,
+        "stock": 140,
+        "unidad": "pieza",
+        "aliases": [
+            "adaptador rosca",
+            "adaptador hembra",
+            "rosca hembra"
+        ]
+    },
+    {
+        "sku": "ADAP-PVC-012-RM",
+        "nombre": "Adaptador PVC Rosca Macho 1/2\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "1/2 pulgada",
+        "precio": 14.00,
+        "stock": 160,
+        "unidad": "pieza",
+        "aliases": [
+            "adaptador macho",
+            "rosca macho",
+            "adaptador rosca macho"
+        ]
+    },
+    {
+        "sku": "LL-LAV-001",
+        "nombre": "Llave de Lavabo Económica",
+        "categoria": "Grifería",
+        "material": "Cromado",
+        "medida": "estándar",
+        "precio": 350.00,
+        "stock": 25,
+        "unidad": "pieza",
+        "aliases": [
+            "llave de lavabo",
+            "grifo",
+            "llave para baño",
+            "grifo lavabo"
+        ]
+    },
+    {
+        "sku": "LL-REG-002",
+        "nombre": "Llave de Regadera Económica",
+        "categoria": "Grifería",
+        "material": "Cromado",
+        "medida": "estándar",
+        "precio": 450.00,
+        "stock": 18,
+        "unidad": "pieza",
+        "aliases": [
+            "llave de regadera",
+            "grifo regadera",
+            "llave ducha",
+            "mezcladora regadera"
+        ]
+    },
+    {
+        "sku": "MAN-FLE-012",
+        "nombre": "Manguera Flexible 1/2\" x 40cm",
+        "categoria": "Conexiones",
+        "material": "Acero Inoxidable",
+        "medida": "1/2 pulgada",
+        "precio": 75.00,
+        "stock": 80,
+        "unidad": "pieza",
+        "aliases": [
+            "manguera flexible",
+            "flexible",
+            "manguera",
+            "conector flexible"
+        ]
+    },
+    {
+        "sku": "TAP-PVC-012",
+        "nombre": "Tapón PVC 1/2\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "1/2 pulgada",
+        "precio": 6.00,
+        "stock": 200,
+        "unidad": "pieza",
+        "aliases": [
+            "tapón",
+            "tapa pvc",
+            "tapón de cierre"
+        ]
+    },
+    {
+        "sku": "LL-JRD-001",
+        "nombre": "Llave de Jardín 1/2\"",
+        "categoria": "Grifería",
+        "material": "Bronce",
+        "medida": "1/2 pulgada",
+        "precio": 120.00,
+        "stock": 40,
+        "unidad": "pieza",
+        "aliases": [
+            "llave de jardín",
+            "llave exterior",
+            "grifo jardín",
+            "llave manguera"
+        ]
+    },
+    {
+        "sku": "UNI-UNI-012",
+        "nombre": "Unión Universal PVC 1/2\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "1/2 pulgada",
+        "precio": 32.00,
+        "stock": 120,
+        "unidad": "pieza",
+        "aliases": [
+            "unión universal",
+            "universal",
+            "unión desmontable"
+        ]
+    },
+    {
+        "sku": "CRU-PVC-012",
+        "nombre": "Cruceta PVC 1/2\"",
+        "categoria": "Conexiones",
+        "material": "PVC",
+        "medida": "1/2 pulgada",
+        "precio": 26.00,
+        "stock": 90,
+        "unidad": "pieza",
+        "aliases": [
+            "cruceta",
+            "cruz pvc",
+            "conexión cruz"
+        ]
+    }
+]
